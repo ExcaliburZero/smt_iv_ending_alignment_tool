@@ -1,0 +1,2 @@
+Prompt,Is forced,Choice 1,Choice 1 effect,Choice 2,Choice 2 effect,Choice 3,Choice 3 effect
+"""Present to me your left arm.""",No,Extend your arm.,1,Don't extend your arm.,-1,,
