@@ -1,2 +1,11 @@
-Prompt,Is forced,Choice 1,Choice 1 effect,Choice 2,Choice 2 effect,Choice 3,Choice 3 effect
-"""Present to me your left arm.""",No,Extend your arm.,1,Don't extend your arm.,-1,,
+Prompt,Choice 1,Choice 1 effect,Choice 2,Choice 2 effect,Choice 3,Choice 3 effect
+"""Present to me your left arm.""",Extend your arm.,1,Don't extend your arm.,-1,,
+"""By the by... have we met somewhere before?""",Possibly…,-1,I don't believe so.,1,,
+"""My name is Isabeau. What's yours?""",Introduce yourself,1,Remain silent,-1,,
+"""What about you, [Hero]?""",It comes naturally to me.,-5,It's a worthy duty,5,I don't know,0
+"""Is this a friend of yours, [Hero]?","Yes, it is.",1,I don't know this man.,-5,,
+"""Won't you put an end to me... with a Samurai's hands... your hands...?""",Finish him off,-5,Spare him,5,Did not get this prompt,0
+"""Hoy, [Hero]. Do you think that we should go through with the Monastery's quest?""",We should.,5,It is unseemly,-1,,
+<Defeating Minotaur>,Defeat the Minotaur,-5,,,,
+"""Wouldn't you say so, [Hero]?""",I share your view of it.,1,I am not so certain...,-1,,
+"""I haven't seen you before. Where are you from?""",The surface.,1,Remain silent,-5,,
