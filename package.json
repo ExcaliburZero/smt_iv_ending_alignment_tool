@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ExcaliburZero/smt_iv_ending_alignment_tool/issues"
   },
-  "homepage": "https://github.com/ExcaliburZero/smt_iv_ending_alignment_tool#readme"
+  "homepage": "https://github.com/ExcaliburZero/smt_iv_ending_alignment_tool#readme",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
 }
