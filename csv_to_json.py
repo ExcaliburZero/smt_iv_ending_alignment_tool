@@ -28,17 +28,17 @@ def main(argv: List[str]):
 def convert_row(row: Dict[str, Any]) -> Dict[str, Any]:
     prompt = row["Prompt"]
 
-    choices = [
+    options = [
         {"text": row["Choice 1"], "effect": row["Choice 1 effect"]},
         {"text": row["Choice 2"], "effect": row["Choice 2 effect"]},
         {"text": row["Choice 3"], "effect": row["Choice 3 effect"]},
     ]
 
-    choices = [choice for choice in choices if choice["text"] != ""]
+    options = [option for option in options if option["text"] != ""]
 
     return {
         "prompt": prompt,
-        "choices": choices,
+        "options": options,
     }
 
 
