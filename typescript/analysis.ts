@@ -111,5 +111,13 @@ console.log(convertChoices(choices));
 let problem = new Problem(convertChoices(choices), []);
 console.log(problem.solve());
 
-problem = new Problem(convertChoices(choices), [["\"Present to me your left arm.\"", "Extend your arm."]]);
+problem = new Problem(convertChoices(choices), [
+    ["\"Present to me your left arm.\"", "Extend your arm."],
+    ["\"By the by... have we met somewhere before?\"", "Possibly..."],
+    ["\"My name is Isabeau. What's yours?\"", "Introduce yourself"],
+    ["\"What about you, [Hero]?\"", "It comes naturally to me."],
+    ["\"Is this a friend of yours, [Hero]?", "Yes, it is."],
+]);
 console.log(problem.solve());
+console.log(Math.min(...problem.solve().keys()));
+console.log(Math.max(...problem.solve().keys()));
