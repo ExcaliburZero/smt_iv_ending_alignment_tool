@@ -1,4 +1,5 @@
 /// <reference path="choices.ts" />
+/// <reference path="optional_choices.ts" />
 
 
 class ChoiceOption {
@@ -121,3 +122,5 @@ problem = new Problem(convertChoices(choices), [
 console.log(problem.solve());
 console.log(Math.min(...problem.solve().keys()));
 console.log(Math.max(...problem.solve().keys()));
+
+console.log(optional_choices);

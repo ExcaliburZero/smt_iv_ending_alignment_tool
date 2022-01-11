@@ -23,14 +23,17 @@ Passage of Ethics 3,Left,-5,Right,5,,,
 """Will you reform it and cause chaos? Or will you sustain it, thereby preserving order?",I'll reform it.,-1,I'll sustain it.,1,I don't know,0,
 "After the battle Walter asks, ""But you know of which I speak, yes?""",I do indeed.,-1,We differ on this.,5,,,
 Choose a side,Go with Walter,-10,Go with Jonathan,10,,,
-Kill Lilith,Kill Lilith,5,,,,,Is this on both paths?
-"""You mark me, yes, [Hero]? As another Casualry.""",Completely.,-1,Do not speak for me.,5,,,Is this on both paths?
+disagreed1,a,0,,,,,
+disagreed2,a,0,,,,,
+Kill Lilith,Kill Lilith,5,,,,,Is this on both paths? KeyBlade999’s guide doesn’t have this
+"""You mark me, yes, [Hero]? As another Casualry.""",Completely.,-1,Do not speak for me.,5,,,Is this on both paths? KeyBlade999’s guide doesn’t have this
 "The White Shadow asks, ""Have you ever given thought to why humans are born? Why the world exists?""","Yes, I have",-1,"No, I haven't",0,,,
 """Hoy, what do you think? We could be in danger...""",Kill them before they kill us.,-2,Let's wait and see...,6,,,
 """Hey, show me your Demon Summoning Program and I'll let you out, OK?""",Show him,5,Don't show him,-1,,,
 """This remote will be your reward. Will you do it...?""",Accept the request,1,,,,,"Choice, but is actually forced"
 "During the boss battle, Walter asks ""You agree, don't you, [Hero]?""",Quite so.,-1,It does bear consideration.,1,,,
 Kill Pluto,Kill Pluto,-5,,,,,
+disagreed3,a,0,,,,,
 """I asked a simple question. Where'd you come from?""",Tokyo.,5,The Eastern Kingdom of Mikado.,0,,,
 """Will you take on Kenji with me?""",Defeat Kenji with Akira,-1,,,,,"Choice, but is actually forced"
 """What about you, [Hero]? Do you want to return to our world of origin?""",I'd like to go home.,0,I'm comfortable here.,-1,,,

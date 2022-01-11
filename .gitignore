@@ -1,6 +1,8 @@
 build/
 data/choices.json
+data/optional_choices.json
 typescript/choices.ts
+typescript/optional_choices.ts
 
 ## Typescript ##
 typescript/*.js*
